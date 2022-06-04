@@ -1,0 +1,16 @@
+@use '../../base/variables' as v;
+
+.media-query {
+  &__contenedor {
+    display:flex;
+    
+  }
+  &__etiqueta {
+    flex: 0 0 10rem;
+  }
+
+  &__font {
+    flex: 0 0 20rem;
+    font-family: v.$fuentePrincipal;
+  }
+}

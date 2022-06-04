@@ -402,4 +402,21 @@ template {
 }
 .fuentes__font--encabezados {
   font-family: "Staatliches", cursive;
+}
+
+.media-query__contenedor {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+.media-query__etiqueta {
+  -webkit-box-flex: 0;
+      -ms-flex: 0 0 10rem;
+          flex: 0 0 10rem;
+}
+.media-query__font {
+  -webkit-box-flex: 0;
+      -ms-flex: 0 0 20rem;
+          flex: 0 0 20rem;
+  font-family: "Roboto", sans-serif;
 }/*# sourceMappingURL=app.css.map */
