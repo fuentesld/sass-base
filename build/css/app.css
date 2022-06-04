@@ -353,8 +353,8 @@ template {
 }
 .variables__color {
   -webkit-box-flex: 0;
-      -ms-flex: 0 0 5rem;
-          flex: 0 0 5rem;
+      -ms-flex: 0 0 10rem;
+          flex: 0 0 10rem;
   border: solid 1px #000;
 }
 .variables__color--primario {
@@ -377,4 +377,29 @@ template {
 }
 .variables__color--grisClaro {
   background-color: #F2F2F2;
+}
+
+.fuentes__contenedor {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+.fuentes__etiqueta {
+  -webkit-box-flex: 0;
+      -ms-flex: 0 0 10rem;
+          flex: 0 0 10rem;
+}
+.fuentes__font {
+  -webkit-box-flex: 0;
+      -ms-flex: 0 0 20rem;
+          flex: 0 0 20rem;
+}
+.fuentes__font--principal {
+  font-family: "Roboto", sans-serif;
+}
+.fuentes__font--cursiva {
+  font-family: "Italianno", sans-serif;
+}
+.fuentes__font--encabezados {
+  font-family: "Staatliches", cursive;
 }/*# sourceMappingURL=app.css.map */

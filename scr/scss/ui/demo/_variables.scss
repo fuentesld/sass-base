@@ -8,10 +8,9 @@
   }
   &__etiqueta {
     flex: 0 0 10rem;
-    
   }
   &__color {
-    flex: 0 0 5rem;
+    flex: 0 0 10rem;
     border: solid 1px v.$negro;
     &--primario {
       background-color: v.$primario;

@@ -1,0 +1,24 @@
+@use '../../base/variables' as v;
+
+.fuentes {
+  &__contenedor {
+    display:flex;
+    
+  }
+  &__etiqueta {
+    flex: 0 0 10rem;
+  }
+
+  &__font {
+    flex: 0 0 20rem;
+    &--principal {
+      font-family: v.$fuentePrincipal;
+    } 
+    &--cursiva {
+      font-family: v.$fuenteCursiva;
+    } 
+    &--encabezados {
+      font-family: v.$fuenteHeading;
+    } 
+  }
+}
