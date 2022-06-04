@@ -339,4 +339,42 @@ template {
  */
 [hidden] {
   display: none;
+}
+
+.variables__contenedor {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+.variables__etiqueta {
+  -webkit-box-flex: 0;
+      -ms-flex: 0 0 10rem;
+          flex: 0 0 10rem;
+}
+.variables__color {
+  -webkit-box-flex: 0;
+      -ms-flex: 0 0 5rem;
+          flex: 0 0 5rem;
+  border: solid 1px #000;
+}
+.variables__color--primario {
+  background-color: #B8336A;
+}
+.variables__color--secundario {
+  background-color: #068D9D;
+}
+.variables__color--terciario {
+  background-color: #ff8015;
+}
+.variables__color--negro {
+  background-color: #000;
+}
+.variables__color--blanco {
+  background-color: #FFFFFF;
+}
+.variables__color--gris {
+  background-color: #484349;
+}
+.variables__color--grisClaro {
+  background-color: #F2F2F2;
 }/*# sourceMappingURL=app.css.map */
