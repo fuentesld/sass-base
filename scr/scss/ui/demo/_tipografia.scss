@@ -1,4 +1,5 @@
 @use '../../base/variables' as v;
+@use '../../base/mixins' as m;
 
 .tipografia {
   &__contenedor {
@@ -6,16 +7,16 @@
     align-items: center;
   }
 
-  &__subcontenedor {
-    border: solid 1px v.$gris;
+  &__sub-contenedor {
+    border: 1px solid v.$gris;
   }
 
   &__etiqueta {
-    flex: 0 0 10rem;
+    flex: 0 0 25rem;
   }
 
   &__heading {
     border: solid 1px v.$gris;
-    padding: 0 .5rem;
+    padding: 0 1rem;
   }
 }
