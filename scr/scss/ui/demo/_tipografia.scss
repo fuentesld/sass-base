@@ -1,0 +1,21 @@
+@use '../../base/variables' as v;
+
+.tipografia {
+  &__contenedor {
+    display:flex;
+    align-items: center;
+  }
+
+  &__subcontenedor {
+    border: solid 1px v.$gris;
+  }
+
+  &__etiqueta {
+    flex: 0 0 10rem;
+  }
+
+  &__heading {
+    border: solid 1px v.$gris;
+    padding: 0 .5rem;
+  }
+}
